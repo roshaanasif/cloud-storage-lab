@@ -10,7 +10,7 @@ const postRouter=require('../routers/post.routers')
 
 app.use(express.json());
 
-app.use("/api/auth",postRouter);
+app.use("/api/post",postRouter);
 
 
 
